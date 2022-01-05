@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="author" content="Karina Moura">
@@ -7,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tablas</title>
 </head>
+
 <body>
     <table border="1">
         <caption>Vinilos</caption>
@@ -32,21 +34,35 @@
         </tbody>
         <tfoot>
             <tr>
-                <td>  </td>
-                <td>  </td>
+                <td> </td>
+                <td> </td>
                 <td> 30 </td>
             </tr>
         </tfoot>
     </table>
     <br>
     <br>
-    <table border="1" style="width: 50%">
+    <table border="1" style="width: 50%; background-color: aqua;" >
         <caption>Combinación de celdas</caption>
+        <colgroup>
+            <col style="width: 40%">
+            <col style="width: 40%">
+            <col style="width: 20%; background: azure;">
+        </colgroup>
         <tr>
             <td>Sams town</td>
             <td>The Killers</td>
             <td>20</td>
         </tr>
+        <tr>
+            <td colspan="2">x</td>
+            <td rowspan="2">y</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+        </tr>
     </table>
 </body>
+
 </html>
