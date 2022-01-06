@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Karina Moura">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contenido interactivo</title>
+</head>
+
+<body>
+    <h1>Contenido interactivo</h1>
+    <details open>
+        <summary>Curso HTML5</summary>
+        1. Introducción <br>
+        2. Formateo <br>
+        3. Listas <br>
+    </details>
+    <br>
+    <dialog id="dialogo">Este es un cuadro de diálogo</dialog>
+    <p>
+        <button type="button" onclick="document.getElementById('dialogo').open=true">Abrir</button>
+        <button type="button" onclick="document.getElementById('dialogo').open=false">Cerrar</button>
+    </p>
+    <br>
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d210147.39707262834!2d-58.57338461060802!3d-34.615461117442436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca3b4ef90cbd%3A0xa0b3812e88e88e87!2sBuenos%20Aires%2C%20CABA!5e0!3m2!1ses-419!2sar!4v1641502827112!5m2!1ses-419!2sar"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    <br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/c36u4zTb05E" title="YouTube video player"
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+</body>
+
+</html>
