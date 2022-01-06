@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="author" content="Karina Moura">
@@ -7,7 +8,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formularios 2</title>
 </head>
+
 <body>
-    
+    <h1>Formularios 2</h1>
+    <form action="#" method="get" autocomplete="off" enctype="multipart/form-data">
+        <p>
+            <input type="radio" name="experiencia" value="junior">Senior
+            <br>
+            <input type="radio" name="experiencia" value="Semi senior">Semi senior
+            <br>
+            <input type="radio" name="experiencia" value="Senior" checked>Senior
+            <br>
+            <input type="radio" name="experiencia" value="Ninguna">Ninguna
+            <br>
+
+        </p>
+        <p>
+            <input type="checkbox" name="futbol">Fútbol
+            <br>
+            <input type="checkbox" name="basquet">Basquet
+            <br>
+            <input type="checkbox" name="natación">Natación
+            <br>
+            <input type="checkbox" name="otro">Otro
+            <br>
+        </p>
+        <p>
+            <select multiple="multiple" size="3">
+                <option>Azul</option>
+                <option>Verde</option>
+                <option>Rojo</option>
+                <option>Blanco</option>
+            </select>
+        </p>
+        <p>
+            <label>Buscador</label>
+            <input list="buscar">
+            <datalist id="buscar">
+                <option>Azul</option>
+                <option>Verde</option>
+                <option>Rojo</option>
+                <option>Blanco</option>
+            </datalist>
+
+        <p>
+            <input type="file" name="archivo" accept=".pdf,image/*" multiple>
+        </p>
+        </p>
+        <button type="submit">Enviar</button>
+        <br>
+        <br>
+        <button type="reset">Limpiar</button>
+        <br>
+    </form>
+
 </body>
+
 </html>
